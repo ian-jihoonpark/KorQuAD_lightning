@@ -48,14 +48,14 @@ make checkpoint file named date tha you run it
 
 # Pretraining using torch-lightning
 Torch-lightning models in 'models.py'
-which is using KoBERT from huggingface "monologg/kobert"\\
+which is using KoBERT from huggingface "monologg/kobert"
 
 
 KorQuAD 1.0 is preprocessed in 'dataloader.py'
 
 
 I use 'tokenizaion_kobert' for tokenization and preprocessing by squad preprocessing from huggingface
-\\
+
 
 I use 3 NVIDIA TITAN XP 12GB for training
 
